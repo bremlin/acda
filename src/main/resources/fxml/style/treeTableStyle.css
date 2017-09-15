@@ -1,0 +1,30 @@
+.projectRow { -fx-background-color: #9BA5DC}
+.codeRow { -fx-background-color: #7585DC}
+.codeTwoRow { -fx-background-color: #A06FDB}
+.codeThreeRow { -fx-background-color: #31439E}
+.activityRow { -fx-background-color: #8ED5D2}
+.stepRow { -fx-background-color: rgba(112, 246, 184, 0.4);}
+
+.projectRow:selected {
+    -fx-background-color: #7b87dc;
+    -fx-font-weight: bold;
+}
+.codeRow:selected { -fx-background-color: #617adc;
+    -fx-font-weight: bold;
+    -fx-text-fill: rgb(49, 89, 23);
+}
+.codeTwoRow:selected { -fx-background-color: #9652db;
+    -fx-font-weight: bold;
+}
+.codeThreeRow:selected { -fx-background-color: #293e9e;
+    -fx-font-weight: bold;
+}
+.activityRow:selected { -fx-background-color: #49d5d1;
+    -fx-font-weight: bold;
+    -fx-text-fill: rgb(49, 89, 23);
+}
+.stepRow:selected { -fx-background-color: rgba(11, 171, 166, 0.57);
+    -fx-font-weight: bold;
+    -fx-text-fill: rgb(49, 89, 23);
+}
+
